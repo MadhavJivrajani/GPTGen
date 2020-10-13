@@ -34,8 +34,9 @@
 			appropriately.
 	
 	### Assumption:
-		-	If one line of the input file has 't' tab spaces, the next line cannot have more than t+1
-			tab spaces as indentation.
+
+	-	If one line of the input file has 't' tab spaces, the next line cannot have more than t+1
+		tab spaces as indentation.
 
 ## Generation of code from the GPT.
 
