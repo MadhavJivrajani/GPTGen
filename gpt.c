@@ -94,21 +94,21 @@ void add_node(tree_t *ptr_tree, char *parent, char *key) {
 }
 
 void gen_header() {
-    printf("#include <stdio.h>\n\n");
+	printf("#include <stdio.h>\n\n");
 }
 
 void gen_main() {
-    printf("int main()\n");
-    printf("{\n");
+	printf("int main()\n");
+	printf("{\n");
 }
 
 void gen_outermost_while() {
 	printf("\tint opt;\n");
-    printf("\tscanf(\"%%d\", &opt);\n");
-    printf("\twhile(opt)\n");
-    printf("\t{\n");
-    printf("\tswitch(opt)\n");
-    printf("\t{\n");
+	printf("\tscanf(\"%%d\", &opt);\n");
+	printf("\twhile(opt)\n");
+	printf("\t{\n");
+	printf("\tswitch(opt)\n");
+	printf("\t{\n");
 }
 
 void begin_boilerplate() {
