@@ -1,4 +1,4 @@
-# Menu driven program generation using General Purpose Trees
+# Generation of nested menu-driven programs using general-purpose trees
 
 ## Construction of GPT in a single pass.
 
