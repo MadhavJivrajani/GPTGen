@@ -56,3 +56,15 @@
 ## Clean up
 -	The allocated space for the tabs table is freed.
 -	The space allocated for the tree is recursively freed using a pre-order traversal.
+
+## Running the code
+
+Compile the code:
+```
+make
+```
+
+Run it with an input file and redirect generated code to a new file:
+```
+./gpt < menu.dat > generated.c
+```
